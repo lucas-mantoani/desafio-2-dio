@@ -5,13 +5,14 @@ body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
-}
+    font-family: 'Arial', sans-serif;
 
+}
 .wrapper {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: #fff;
 }
 .main {
     display: flex;
@@ -20,19 +21,60 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
-    padding: 10px 20px 0px;
+    background-color: rgb(4, 82, 82);
+    padding: 30px 30px 0px;
+}
+.menu a{
+    color: #fff;
+    text-decoration: none;
+}
+.menu ul{
+    list-style: none;
+    padding: 0;
+    list-style-position: inside;
+}
+.menu ul li{
+    margin: 15px 0px
 }
 .header {
     background-color: rgb(5, 108, 108);
     min-height: 150px;
 }
+.header img{
+    width: 100%;;
+}
 .content {
     background-color: white;
-    min-height: 300px;
-    padding: 20px;
-}
-.footer {
-    background-color: rgb(99, 56, 240);
     min-height: 150px;
+    padding: 30px 60px;
+    font-size: 16px;
+    line-height: 25px;
+}
+.content input{
+    width: 250px;
+    padding: 8px;
+}
+.content button{
+    padding: 10px 30px;
+    margin: 8px 0px;
+}
+.content table th{
+    border-bottom: solid 1px rgb(5, 108, 108);
+    text-align: left;
+    padding: 0px 20px 5px 0;
+    color: rgb(5, 108, 108)
+}
+.content table td{
+    border-bottom: solid 1px rgb(5, 108, 108);
+    text-align: left;
+    padding: 0px 20px 5px 0;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    min-height: 80px;
+    color: #fff;
+    padding: 60px;
+    line-height: 30px;
+    text-align: center;
 }
